@@ -1,0 +1,129 @@
+body{
+  background-image: url('bp.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+}
+.navbar{
+    float:left;
+   background-color: black;
+    border:2px  solid black;
+    width: 200px;
+    height: 620px;
+   font-size: 18px;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   overflow: hidden;
+   position:fixed;
+
+
+}
+.sn{
+    overflow: hidden;
+
+ 
+}
+.sn,.sb{
+    outline: none;
+    font-family:inherit;
+    background-color: inherit;
+    color: white;
+    font-size: 18px;
+    padding: 14px 16px;
+    border: none;
+    margin-top: 20px;
+  
+}
+a{
+
+  margin-top: 50px;
+    text-decoration: none;
+color: white;
+font-size: 18px;
+border:none;
+}
+.navbar a:hover, .sn:hover .sn {
+    background-color: rgb(139, 2, 139)
+  }
+  .sc{
+    display:none;
+  background-color: rgb(107, 55, 107);
+  text-decoration: none;
+
+  }
+  .sc a:hover {
+    background-color: rgb(107, 55, 107);
+    color: black;
+  }
+  .sn:hover ,.sc{
+   
+  
+
+        background-color: #444252;
+        color: black;
+      
+  }
+  .sn:hover .sc  {
+display: block;
+  } 
+  .other{
+    margin-top: 60px;
+  }
+  .centerl,.center2{
+    border:2px  solid black;
+    height: 300px;
+width: 450px;
+top: 200px;
+
+  }
+  .centerl{
+
+  display: inline-block;
+    position:relative;
+    left:350px;
+ 
+    }
+  .center2{
+  float:right;
+  position:relative;
+
+  }
+  h1{
+    font-size: 50px;
+    color:black;
+    margin-left: 600px;
+  
+  }
+  .logo{
+    border:2px  solid black;
+    display: inline;
+    position: sticky;
+    top:0px;
+  }
+  img{
+
+    height: 70px;
+    margin-left: 300px;
+    float:right;
+    position: absolute;
+    top:60px;
+    left: 230px;
+  }
+  .intro, U{
+    margin-left: 250px;
+    font-size: 30px;
+  }
+ #ch ,#gt{
+position: absolute;
+top:10px;
+left:0px;
+
+ 
+ }
+ h2{
+  margin-top: 100px;
+  margin-left: 330px;
+ }
